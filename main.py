@@ -162,7 +162,7 @@ def price_plan_and_calculate_profit():
     elif flight_selection == "":
         print("Please choose an aircraft")
         menu()
-    elif no_of_sc_seats >= 0:
+    elif no_of_sc_seats <= 0:
         print("Please choose number of seats")
         menu()
     elif max_flight_range < int(distance):
