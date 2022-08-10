@@ -1,4 +1,3 @@
-# Airports
 import sys
 import os
 
